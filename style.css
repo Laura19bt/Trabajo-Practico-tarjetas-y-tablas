@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, red, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    position: relative;
+
+}
+
+.header-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: rgb(225,0,0) solid 2eepx;
+}
+
+.perfil-img {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.perfil-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    padding: 60px 20px 20px;
+}
+
+.contenido h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.ubicacion {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    font-size: 14px;
+    color: #222;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.redes img{
+    width: 40px;
+    height: 40px;
+
+}
